@@ -1,0 +1,50 @@
+{
+  "authoringRegion": "australiaeast",
+  "hierarchical": true,
+  "useAllTrainingData": true,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_Weather",
+      "appId": "46cacf3b-c51a-4727-9b74-f0b9e5e4d430",
+      "authoringKey": "1c1011cb09294242bd2fe9560ec4efb4",
+      "version": "0.1",
+      "region": "australiaeast",
+      "type": "luis",
+      "name": "WeatheringApp",
+      "id": "1"
+    },
+    {
+      "intentName": "l_HomeAutomation",
+      "appId": "4574d4b6-c0bd-4d04-941b-5b457f791a9a",
+      "authoringKey": "1c1011cb09294242bd2fe9560ec4efb4",
+      "version": "0.1",
+      "region": "australiaeast",
+      "type": "luis",
+      "name": "HomeApp",
+      "id": "2"
+    },
+    {
+      "intentName": "q_sample-qna",
+      "includePrompts": true,
+      "kbId": "c446c288-f392-4ce3-889d-ba93aac98c44",
+      "subscriptionKey": "f07ef1c8698e48f3a4e0509bfebec41f",
+      "type": "qna",
+      "name": "WorkingKB",
+      "id": "3"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "appId": "5df55ab0-c592-42d1-8fb5-d147aecd7c8a",
+  "authoringKey": "1c1011cb09294242bd2fe9560ec4efb4",
+  "version": "Dispatch",
+  "region": "australiaeast",
+  "type": "dispatch",
+  "name": "bot4work"
+}
